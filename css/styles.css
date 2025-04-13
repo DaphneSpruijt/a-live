@@ -42,3 +42,80 @@ footer a:hover {
 		0 0 .2em white,
 		0 0 .5em white;
 }
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.item {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    width: calc(25% - 20px); /* Adjust width for 4 items */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.item h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.item a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.contact-banner {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-top: 2px solid #ccc;
+}
+
+.contact-column {
+    width: 48%; /* Adjust width as needed */
+    padding: 10px;
+}
+
+.contact-column h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.contact-column p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.contact-column a {
+    color: #007BFF; /* Link color */
+    text-decoration: none;
+}
+
+.contact-column a:hover {
+    text-decoration: underline;
+}
